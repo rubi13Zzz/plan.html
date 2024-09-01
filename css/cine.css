@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+
+}
+header{
+    background-color: rgb(58, 56, 56);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    
+}
+.logo{
+    width: 200px;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+.container{
+   
+    width: 63%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 10px;
+   
+}
+.caja{
+ 
+    height: 300px;
+    text-align: center;
+   
+}
+.container2{
+  
+    width: 63%;
+    margin: auto;
+    display: grid; 
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 10px;
+  
+   
+
+}
+.peliculas{
+   
+    height: 300px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    
+}
+.container3{
+   
+    width: 63%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+.series{
+ 
+    height: 300px;
+    text-align: center;
+
+}
+.container4{
+   
+    width: 63%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 10px;
+
+}
+.documentales{
+   
+    height: 300px;
+    text-align: center;
+}
+.i{
+    border-radius: 5px;
+    border: 4px solid #000000;
+}
+footer{
+    background-color:rgb(58, 56, 56) ;
+    color: white;
+    padding: 25px;
+    text-align: center;
+   
+}
+footer h1{
+    margin-bottom: 10px;
+}
+p{
+    margin: 7px;
+}
+i{
+    margin-right: 10px;
+}
+.mapa{
+  padding-left:px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.c{
+    width: 455px;
+}
+#b{
+    width: 460px;
+    box-sizing: border-box;
+    margin-left: 300px;
+  
+}
+    
+.container5{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    gap: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 600px;
+}
+.enviar{
+    background-color: rgb(173, 21, 21);
+    width: 463px;
+    color: white;
+    margin-bottom: 20px;
+
+}

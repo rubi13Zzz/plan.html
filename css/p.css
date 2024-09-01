@@ -1,0 +1,39 @@
+.contenedor{
+    width: 70%;
+    margin: auto;
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+     
+ }
+ .tarjeta{
+     background-color: white;
+     width: 200px;
+     height: 250px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+ }
+ input{
+     background-color: blue;
+     color: white;
+     padding: 10px;
+     border-style: none;
+     border: none;
+     border-radius: 5px;
+ 
+ }
+ .boton{
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+ 
+ }
+ h1{
+     text-shadow: 2px 2px 5px rgb(60, 55, 55);
+ }
+ .tarjeta{
+     box-shadow: 3px 3px 5px #3333;
+     border-radius: 20px; 
+ }

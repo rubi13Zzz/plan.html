@@ -1,0 +1,99 @@
+body {
+    background-color: #4e00ff;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #fff;
+    color: #4e00ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.tarjeta2 {
+    transform: translateY(-20px); 
+}
+
+.tarjetap {
+    position: absolute;
+    top: 0px;
+    background-color: bisque;
+    color: #4e00ff;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+h3{
+    color: rgb(230, 230, 66);
+}
+
+.emoji {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+li {
+    color: gray;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+   
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+.boton {
+    background-color: #4e00ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+.b{
+    color :#4e00ff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

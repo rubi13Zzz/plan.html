@@ -1,0 +1,31 @@
+.caja1{
+    width: 150px;
+    height: 60px;
+    background: linear-gradient(120deg,blue,white);
+    border: 15px;
+    border-style:solid;
+   border-radius: 10px;
+   border-top-color: red;
+   border-left-color: darkmagenta;
+   border-right-color:green ;
+   border-bottom-color: black;
+}
+p{
+  text-align: center;
+}
+.caja2{
+  width: 150px;
+  height: 60px;
+  position: relative;
+  top: 100px;
+  border: 12px solid transparent;
+  border-style:solid;
+  border-image: linear-gradient(to right,rgb(219, 60, 60),rgb(81, 81, 225))1;
+  
+
+}
+.caja2{
+  background-color: black;
+  color:white;
+  
+}
